@@ -1,1 +1,43 @@
---HOLA CSS
+body {
+  background-color: #e7f8f9;
+}
+
+/*Estilos para nav bar*/
+header {
+  background-color: #416ed0;
+  font-size: 18px;
+  font-weight: bold;
+  height: 20px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#divTituloPpal {
+  background-color: #416ed0;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+.classIntroduccion {
+  font-size: 18px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
