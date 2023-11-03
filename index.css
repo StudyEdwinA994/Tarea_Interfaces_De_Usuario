@@ -41,3 +41,16 @@ nav a {
   width: 1000px;
   margin: 0 auto;
 }
+
+.botonesIniciales {
+  display: flex;
+  justify-content: center;
+}
+
+.botonesIniciales button {
+  margin-inline: 160px;
+  font-size: 23px;
+  background-color: #416ed0;
+  color: white;
+  font-weight: bold;
+}
