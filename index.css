@@ -54,3 +54,23 @@ nav a {
   color: white;
   font-weight: bold;
 }
+
+/*ESPACIO DE IMAGENES*/
+.contenedorPpal {
+  text-align: center;
+}
+
+#divNombre {
+  display: inline-block;
+  background-color: #C4D5F9;
+  color: black;
+  width: 200px;
+  margin: 30px;
+  border: 2px solid black;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  border: 7px solid black;
+}
