@@ -62,15 +62,15 @@ nav a {
 
 #divNombre {
   display: inline-block;
-  background-color: #C4D5F9;
+  background-color: #c4d5f9;
   color: black;
-  width: 200px;
+  width: 300px;
   margin: 30px;
   border: 2px solid black;
 }
 
 img {
-  width: 90%;
-  height: auto;
   border: 7px solid black;
+  width: 230px;
+  height: 300px;
 }
