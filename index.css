@@ -67,10 +67,12 @@ nav a {
   width: 300px;
   margin: 30px;
   border: 2px solid black;
+  border-radius: 50px;
 }
 
 img {
   border: 7px solid black;
   width: 230px;
   height: 300px;
+  border-radius: 20px;
 }
