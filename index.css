@@ -78,12 +78,62 @@ img {
 }
 
 .buttonCarrito {
-  background-color: #B2B2B2;
+  background-color: #b2b2b2;
   color: black;
   height: 30px;
   border-radius: 5px;
   margin: 7px;
   position: relative;
-  right: 58px;
+  right: 28px;
   font-weight: bold;
+}
+
+.buttonSuma {
+  background-color: #b2b2b2;
+  color: black;
+  height: 19px;
+  border-radius: 7px;
+  margin: 1px;
+  position: relative;
+  left: 17px;
+  font-weight: bold;
+}
+
+.buttonResta {
+  background-color: #b2b2b2;
+  color: black;
+  height: 19px;
+  border-radius: 7px;
+  margin: 1px;
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#idRedesFooter{
+  position: relative;
+  right: 550px;
+}
+
+.classRedesSociales {
+  text-align: left;
+  display: inline-block;
+}
+
+.classRedesSociales img {
+  width: 20px;
+  height: 20px;
+}
+
+.classRedesSociales p {
+  display: inline;
+  margin-left: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
