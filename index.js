@@ -29,3 +29,9 @@ function actualizarCantidad(id) {
 function obtenerIndice(id) {
   return parseInt(id.replace("producto", "")) - 1;
 }
+
+//Alert de botones
+function bottonAgregarCarrito() {
+  alert("Agregaste este producto al carrito");
+}
+
