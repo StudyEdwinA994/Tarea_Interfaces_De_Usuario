@@ -29,4 +29,3 @@ function actualizarCantidad(id) {
 function obtenerIndice(id) {
   return parseInt(id.replace("producto", "")) - 1;
 }
-.
