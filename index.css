@@ -2,7 +2,6 @@ body {
   background-color: #e7f8f9;
 }
 
-/*Estilos para nav bar*/
 header {
   background-color: #416ed0;
   font-size: 18px;
@@ -28,7 +27,8 @@ nav a {
 }
 
 #divTituloPpal {
-  background-color: #416ed0;
+  font-family: "Comic Sans MS", cursive;
+  background-color: #1c1e6a;
   color: white;
   text-align: center;
   font-size: 30px;
@@ -40,6 +40,17 @@ nav a {
   text-align: center;
   width: 1000px;
   margin: 0 auto;
+}
+
+#mensajeBienvenido {
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#mensajeBienvenido:hover {
+  transform: translateY(-30px);
 }
 
 .botonesIniciales {
@@ -55,14 +66,13 @@ nav a {
   font-weight: bold;
 }
 
-/*ESPACIO PARA IMAGENES*/
 .contenedorPpal {
   text-align: center;
 }
 
 #divNombre {
   display: inline-block;
-  background-color: #c4d5f9;
+  background-color: #7283fc;
   color: black;
   width: 300px;
   margin: 30px;
@@ -111,13 +121,13 @@ img {
 }
 
 footer {
-  background-color: #333;
+  background-color: #1c1e6a;
   color: #fff;
   text-align: center;
   padding: 10px 0;
 }
 
-#idRedesFooter{
+#idRedesFooter {
   position: relative;
   right: 550px;
 }
@@ -135,7 +145,7 @@ footer {
 .classRedesSociales p {
   display: inline;
   margin-left: 5px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .aumentaImagen {
